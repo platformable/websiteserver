@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroText": {
+      "type": "string"
+    },
+    "teamTitle": {
+      "type": "string"
+    },
+    "teamList": {
+      "type": "dynamiczone",
+      "components": [
+        "authors.author-component"
+      ]
+    }
+  }
+}

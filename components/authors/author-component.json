@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_authors_author_components",
+  "info": {
+    "name": "authorComponent",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}

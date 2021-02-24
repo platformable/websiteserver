@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Post"
+    "name": "Post",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -31,6 +32,25 @@
       "collection": "category",
       "via": "posts",
       "dominant": true
+    },
+    "is_featured": {
+      "type": "boolean"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "post"
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "post"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "calendly": {
+      "type": "boolean"
     }
   }
 }
