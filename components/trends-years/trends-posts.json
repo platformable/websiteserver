@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_trends_posts_trends_posts",
+  "info": {
+    "name": "Report_year",
+    "icon": "calendar-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "string"
+    },
+    "Posts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "trends-years.trends-report-posts-component"
+    }
+  }
+}

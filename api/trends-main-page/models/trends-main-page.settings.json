@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "trends_main_pages",
+  "info": {
+    "name": "Trends_main_page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "trends-years.trends-posts"
+    }
+  }
+}

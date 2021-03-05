@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_trends_years_trends_report_posts_components",
+  "info": {
+    "name": "posts_component",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Quarter": {
+      "type": "string"
+    },
+    "trends_report": {
+      "collection": "post"
+    }
+  }
+}

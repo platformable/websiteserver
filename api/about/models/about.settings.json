@@ -17,7 +17,7 @@
     "teamTitle": {
       "type": "string"
     },
-    "teamList": {
+    "Author": {
       "type": "dynamiczone",
       "components": [
         "authors.author-component"
