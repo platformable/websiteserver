@@ -43,7 +43,8 @@
     "users_permissions_users": {
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "post"
+      "via": "posts",
+      "dominant": true
     },
     "slug": {
       "type": "uid",
