@@ -40,7 +40,7 @@
       "collection": "tag",
       "via": "post"
     },
-    "users_permissions_users": {
+    "user": {
       "plugin": "users-permissions",
       "collection": "user",
       "via": "posts",
@@ -51,6 +51,16 @@
       "targetField": "title"
     },
     "calendly": {
+      "type": "boolean"
+    },
+    "free": {
+      "type": "boolean",
+      "default": true
+    },
+    "free_login": {
+      "type": "boolean"
+    },
+    "paid": {
       "type": "boolean"
     }
   }

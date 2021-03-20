@@ -83,7 +83,7 @@
       "type": "string"
     },
     "posts": {
-      "via": "users_permissions_users",
+      "via": "user",
       "collection": "post"
     }
   }
