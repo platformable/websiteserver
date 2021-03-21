@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "users_permissions_users": {
+    "user": {
       "plugin": "users-permissions",
       "collection": "user"
     }
