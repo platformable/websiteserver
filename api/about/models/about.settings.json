@@ -22,6 +22,20 @@
       "components": [
         "authors.author-component"
       ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "key_work_title": {
+      "type": "string"
+    },
+    "key_work_subtitle": {
+      "type": "string"
+    },
+    "key_work_areas_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-work-area.key-work-areas-items"
     }
   }
 }

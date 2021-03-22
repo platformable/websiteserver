@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_key_work_area_key_work_areas_items",
+  "info": {
+    "name": "key_work_areas_items",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key_item": {
+      "type": "string"
+    }
+  }
+}
