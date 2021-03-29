@@ -53,7 +53,7 @@
     "calendly": {
       "type": "boolean"
     },
-    "mermbership": {
+    "membership": {
       "type": "enumeration",
       "enum": [
         "free",
