@@ -53,15 +53,15 @@
     "calendly": {
       "type": "boolean"
     },
-    "free": {
-      "type": "boolean",
-      "default": true
-    },
-    "free_login": {
-      "type": "boolean"
-    },
-    "paid": {
-      "type": "boolean"
+    "mermbership": {
+      "type": "enumeration",
+      "enum": [
+        "free",
+        "free_login",
+        "paid"
+      ],
+      "default": "free",
+      "required": true
     }
   }
 }
