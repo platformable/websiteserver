@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tags",
   "info": {
-    "name": "tag"
+    "name": "tag",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,9 +14,10 @@
     "name": {
       "type": "string"
     },
-    "post": {
+    "posts": {
+      "collection": "post",
       "via": "tags",
-      "model": "post"
+      "dominant": true
     }
   }
 }
