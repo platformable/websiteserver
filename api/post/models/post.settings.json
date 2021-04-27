@@ -63,8 +63,12 @@
       "type": "text"
     },
     "tags": {
-      "via": "posts",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "posts"
+    },
+    "publishing_date": {
+      "required": true,
+      "type": "date"
     }
   }
 }
