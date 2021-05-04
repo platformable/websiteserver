@@ -69,6 +69,10 @@
     "publishing_date": {
       "required": true,
       "type": "date"
+    },
+    "authors_page": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
