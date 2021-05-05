@@ -73,6 +73,11 @@
     "authors_page": {
       "type": "boolean",
       "default": true
+    },
+    "staging": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
