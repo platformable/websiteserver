@@ -83,8 +83,17 @@
       "type": "string"
     },
     "posts": {
-      "via": "user",
-      "collection": "post"
+      "collection": "post",
+      "via": "user"
+    },
+    "affiliation": {
+      "type": "enumeration",
+      "enum": [
+        "User",
+        "Team",
+        "Partner",
+        "Client"
+      ]
     }
   }
 }

@@ -1,43 +1,35 @@
 'use strict';
-const axios = require('axios')
+/* const axios = require('axios') */
 
 /**
  * Read the documentation (https://strapi.io/documentation/developer-docs/latest/concepts/models.html#lifecycle-hooks)
  * to customize this model
  */
 
+/* const posts_build_url = process.env.POSTS_BUILD_URL
 
-const token = process.env.POSTS_BUILD_TOKEN
-const appId = process.env.APP_ID
 
-const triggerBuild = (token,appId)=>{
+const triggerBuild = ()=>{
     axios({
         method: 'post',
-        headers: {
-            'Content-Type': 'json',
-            'Authorization': `Bearer ${token}`
-        },
-        url: `https://api.digitalocean.com/v2/apps/${appId}/deployments`,
-       body:{
-           "force_build":true
-        }
+        url: `${posts_build_url}`,
       });
-}
+} */
 
 module.exports =  {
 
-    lifecycles: {
+   /*  lifecycles: {
 
     async afterUpdate()  {
-   triggerBuild(token,appId)  
+   triggerBuild()  
       },
 
       async afterCreate()  {
         
-        triggerBuild(token,appId)  
+        triggerBuild()  
       },
       async afterDestroy()  {
-        triggerBuild(token,appId)  
+        triggerBuild()  
       },
-    }
+    } */
 };
