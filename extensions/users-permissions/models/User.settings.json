@@ -83,8 +83,8 @@
       "type": "string"
     },
     "posts": {
-      "collection": "post",
-      "via": "user"
+      "via": "user",
+      "collection": "post"
     },
     "affiliation": {
       "type": "enumeration",
