@@ -83,8 +83,8 @@
       "type": "string"
     },
     "posts": {
-      "via": "user",
-      "collection": "post"
+      "collection": "post",
+      "via": "user"
     },
     "affiliation": {
       "type": "enumeration",
@@ -94,6 +94,17 @@
         "Partner",
         "Client"
       ]
+    },
+    "position_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
