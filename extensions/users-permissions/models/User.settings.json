@@ -105,6 +105,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "pronounce": {
+      "type": "string"
     }
   }
 }
