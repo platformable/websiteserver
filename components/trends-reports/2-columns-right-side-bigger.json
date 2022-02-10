@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_trends_reports_2_columns_right_side_bigger_s",
+  "info": {
+    "name": "2 Columns (right side bigger)",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "column1": {
+      "type": "richtext"
+    },
+    "column2": {
+      "type": "richtext"
+    }
+  }
+}

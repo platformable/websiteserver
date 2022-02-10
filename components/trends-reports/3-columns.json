@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_trends_reports_3_columns_s",
+  "info": {
+    "name": "3 columns ",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "column1": {
+      "type": "richtext"
+    },
+    "column2": {
+      "type": "richtext"
+    },
+    "column3": {
+      "type": "richtext"
+    },
+    "column1_heading": {
+      "type": "string"
+    },
+    "column2_heading": {
+      "type": "string"
+    },
+    "column3_heading": {
+      "type": "string"
+    }
+  }
+}

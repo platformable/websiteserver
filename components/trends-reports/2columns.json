@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_trends_reports_2columns",
+  "info": {
+    "name": "2 Columns",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "column1": {
+      "type": "richtext"
+    },
+    "column2": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "os_trends",
+  "info": {
+    "name": "OS Trends",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "publishing_date": {
+      "type": "date"
+    },
+    "featured_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "staging": {
+      "type": "boolean",
+      "default": false
+    },
+    "Sections": {
+      "type": "dynamiczone",
+      "components": [
+        "trends-reports.3-columns",
+        "trends-reports.2columns",
+        "trends-reports.2-columns-right-side-bigger"
+      ]
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
