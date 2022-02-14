@@ -37,7 +37,8 @@
       "components": [
         "trends-reports.3-columns",
         "trends-reports.2columns",
-        "trends-reports.2-columns-right-side-bigger"
+        "trends-reports.2-columns-right-side-bigger",
+        "trends-reports.main-image-on-left-text-on-the-right"
       ]
     },
     "excerpt": {
