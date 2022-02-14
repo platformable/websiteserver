@@ -13,10 +13,47 @@
     "content": {
       "type": "richtext"
     },
-    "LeftImageAndTextOnTheRight": {
-      "type": "component",
-      "repeatable": true,
-      "component": "trends-reports.row-image-on-left-text-on-right"
+    "row_1_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "row_1_content": {
+      "type": "richtext"
+    },
+    "row_2_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "row_2_content": {
+      "type": "richtext"
+    },
+    "row_3_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "row_3_content": {
+      "type": "richtext"
     }
   }
 }

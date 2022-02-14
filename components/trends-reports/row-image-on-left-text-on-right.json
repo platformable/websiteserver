@@ -2,23 +2,9 @@
   "collectionName": "components_trends_reports_row_image_on_left_text_on_rights",
   "info": {
     "name": "RowImageOnLeftTextOnRight",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "content": {
-      "type": "richtext"
-    }
-  }
+  "attributes": {}
 }
