@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_trends_reports_executive_summaries",
+  "info": {
+    "name": "executive_summary",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "heading_1": {
+      "type": "string"
+    },
+    "content_1": {
+      "type": "richtext"
+    },
+    "heading_2": {
+      "type": "string"
+    },
+    "content_2": {
+      "type": "richtext"
+    },
+    "heading_3": {
+      "type": "string"
+    },
+    "content_3": {
+      "type": "richtext"
+    }
+  }
+}
