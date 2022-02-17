@@ -49,6 +49,12 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "hero_content": {
+      "type": "richtext"
+    },
+    "post_updated_at": {
+      "type": "date"
     }
   }
 }
