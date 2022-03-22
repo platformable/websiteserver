@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ob_trends",
+  "info": {
+    "name": "OB Trends",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "hero_content": {
+      "type": "richtext"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "publishing_date": {
+      "type": "date"
+    },
+    "featured_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "trends-reports.2-columns-right-side-bigger",
+        "trends-reports.2columns",
+        "trends-reports.1-column",
+        "trends-reports.executive-summary",
+        "trends-reports.3-columns",
+        "trends-reports.main-image-on-left-text-on-the-right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ob-trends",
+      "handler": "ob-trends.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ob-trends/count",
+      "handler": "ob-trends.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ob-trends/:slug",
+      "handler": "ob-trends.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ob-trends",
+      "handler": "ob-trends.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ob-trends/:id",
+      "handler": "ob-trends.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ob-trends/:id",
+      "handler": "ob-trends.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
